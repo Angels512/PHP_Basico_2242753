@@ -10,3 +10,4 @@ class Cliente extends Model
     protected $primaryKey = 'CustomerId';
     public $timestamps = false;
 }
+
