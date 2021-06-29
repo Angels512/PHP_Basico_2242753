@@ -72,3 +72,6 @@
 
     // Ruta para buscar el termino dado en el formulario
     Route::post('buscarTermino', 'MetabuscadorController@buscarTermino');
+
+
+    Route::resource('artista', 'ArtistaController');
